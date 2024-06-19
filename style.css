@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: linear-gradient( to right, #d0dbd2, #232b2d);
+}
+
+.header .hd {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.45);
+}
+
+.header > h1 {
+    padding-top: 25px;
+}
+
+.header > p {
+    padding-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;   
+    background: E4F2E7;
+}
+
+.nav > a {
+    color: #c2c9ca;
+}
+
+.conteudo {
+    padding-top: 180px;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}    
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.titulo-principal {
+    font-size: 54px;
+    color: #FFF2E7;
+}
+
+.sub-principal {
+    font-size: 24px;
+}
+
+.botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+}
+
+.conteudo-segundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 100px;
+    font-size: 1.2em;
+}
+
+.titulo-segundario {
+    
+}
