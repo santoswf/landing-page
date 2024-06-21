@@ -14,19 +14,21 @@
 
 
 body {
-    height: 100vw;
-    background-image: linear-gradient( to bottom, #d0dbd2, #232b2d);
+    background-image: linear-gradient( to right, #1E3859, #D0D3D9);
 }
 
 .header {
     height: 80px;
 }
 
+.img-header {
+    
+}
+
 .nav {
     display: flex;
     justify-content: space-evenly; 
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 38px;
 }
 
 .nav > a {
@@ -35,6 +37,7 @@ body {
 }
 
 .conteudo {
+    margin: auto;
     padding-top: 180px;
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;
@@ -101,4 +104,20 @@ body {
 
 .titulo-segundario {
     font-family: var(--prompt02);
+    color: #D0D3D9;
+    font-size: 1.8em;
+}
+
+.sub-segundario {
+    font-family: var(--prompt02);
+    color: #D0D3D9;
+}
+
+.rodape {
+    border-top: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: var(--prompt);
+    color: #D0D3D9;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.274);
 }
